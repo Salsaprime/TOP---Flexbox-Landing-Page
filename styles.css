@@ -1,0 +1,177 @@
+* {
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    color: silver;
+}
+
+.header-con {
+    margin: -10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: #1F2937;
+}
+
+ .link-con {
+     display: flex;
+}
+
+.link-con div, footer {
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.link-items {
+    display: flex;
+}
+
+.link-items div {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    flex: 1;
+}
+
+.hero-con {
+    display: flex;
+    padding: 60px 0px;
+}
+
+.hero-con div {
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.hero-con .place-img {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-body-con {
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.flex-body-con div {
+    flex: 1;
+}
+
+.box-con {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+.box-wrap {
+    flex: 1;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid #3882F6;
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.quote-con {
+    margin: -10px;
+    background-color: silver;
+    padding: 20px 25%;
+}
+
+.quote-con p {
+    color: black;
+    font-size: 36px;
+    font-style: italic
+}
+
+.quote2 {
+    text-align: right;
+}
+
+.action-wrap {
+    margin: -10px;
+    background-color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.action-con {
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+}
+
+ .action-con div {
+     margin: -5px; /* hides div rounded corners */
+     margin-top: 40px;
+     margin-bottom: 40px;
+     padding: 0px 60px;
+    background-color:#3882F6;
+    justify-content: center;
+    border-radius: 8px;
+} 
+.call-text {
+    color: white;
+}
+
+.sign-button {
+    flex: 25%;
+    align-items: center;
+    display: flex;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+
+.foot-con {
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
